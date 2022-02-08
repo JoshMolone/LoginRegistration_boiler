@@ -71,13 +71,13 @@ def logout(request):
 
     
 
-# def clear(request):
-#     one = User.objects.get(id=5)
-#     two = User.objects.get(id=6)
+def clear(request):
+    one = User.objects.get(id=5)
+    two = User.objects.get(id=6)
     
-#     one.delete()
-#     two.delete()
+    one.delete()
+    two.delete()
 
 
-#     print('DELTED ENTRY/////////')
-#     return redirect('/')
+    print('DELTED ENTRY/////////')
+    return redirect('/')
